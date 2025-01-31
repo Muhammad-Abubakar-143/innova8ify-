@@ -1,0 +1,224 @@
+@media(min-width : 1024px) {
+    .logo{
+        height: 50px;
+    }
+    .block{
+        display: block;
+    }
+    .block-1{
+        text-align: left;
+        box-sizing: border-box;
+    }
+    .heading{
+        color: #2c9596;
+    }
+    .unordered-list-1 {
+        list-style: disc;
+    }
+    .unordered-list-2{
+        list-style: disc;
+    }
+    .marketing-image{
+        display: flex;
+    }
+    .sec-1-contact-us-btn:hover{
+        background: #2c9596;
+        color: white;
+    }
+    .pic-1{
+        align-content: center;
+    }
+    .image-2{
+        height: 350px;
+        border-radius: 100px;
+    }
+    .out-smart-image{
+        border-radius: 100px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .horizontal-line{
+        border: 2px #2c9596;
+        background-color: #2c9596;
+        height: 6px;
+    }
+    .email-image{
+        height: 60px;
+    }
+    .icon{
+        height: 40px;
+    }
+    .five-star{
+        height: 100px;
+    }
+    .email-text-color{
+        color: white; 
+    }
+    .horizontal-line-footer{
+        border: 1px;
+        background: grey;
+        height: 3px;
+    }
+}
+
+@media(min-width: 768px){
+    .heading{
+        color: #2c9596;  
+    }
+    .sec-3-img-text{
+        border-radius: 50px;
+    }
+    .email-image{
+        height: 60px;
+    }
+    .email-text-color{
+        color: #2c9596;
+    }
+    .block{
+        justify-content: center;
+        align-items: center;
+    }
+    .image-2{
+        height: 350px;
+        border-radius: 100px;
+    }
+    .horizontal-line{
+        border: 2px #2c9596;
+        background-color: #2c9596;
+        height: 6px;
+    }
+    .five-star{
+        height: 70px;
+    }
+    .icon{
+        height: 50px;
+    }
+    .out-smart-image{
+        border-radius: 100px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+@media(min-width: 640px){
+    .heading{
+        color: #2c9596;
+    }
+    .email-image{
+        height: 70px;
+    }
+    .email-text-color{
+        color: #2c9596;
+    }
+    .image-2{
+        height: 350px;
+        border-radius: 100px;
+    }
+    .five-star{
+        height: 70px;
+    }
+    .icon{
+        height: 50px;
+    }
+    .horizontal-line{
+        border: 2px #2c9596;
+        background-color: #2c9596;
+        height: 6px;
+    }
+    .out-smart-image{
+        border-radius: 100px;
+    }
+}
+
+@media (max-width: 639px){
+    body{
+        overflow-x: scroll;
+        width: 100vw;
+        height: 100vh;
+    }
+    .sec-3-img-text{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading{
+        color: #2c9596;
+    }
+    .sec-4-img-text{
+        display: flex;
+        flex-direction: column;
+    }
+    .email-image{
+        height: 70px;
+    }
+    .email-text-color{
+        color: #2c9596;
+    }
+    .section-5{
+        display: flex;
+        flex-direction: column;
+    }
+    .horizontal-line{
+        border: 2px #2c9596;
+        background-color: #2c9596;
+        height: 6px;
+    }
+    .client-reviews{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-top: 32px;
+    }
+    .client-review-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .client-review-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .five-star{
+        height: 70px;
+    }
+    .icon{
+        height: 50px;
+    }
+    .one-to-three-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .four-to-six-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-us{
+        margin-top: 32px;
+    }
+    .client-review-1-b{
+        margin-top: 20px;
+    }
+    .client-review-2{
+        padding-top: 20px;
+    }
+    .client-review-1-c{
+        margin-top: 20px;
+    }
+    .client-review-1-d{
+        margin-top: 20px;
+    }
+    .image-2{
+        height: 350px;
+    }
+    .sec-5-img-text{
+        display: flex;
+        flex-direction: column;
+    }
+    .out-smart-image{
+        border-radius: 100px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
